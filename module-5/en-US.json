@@ -1,0 +1,143 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "final pet match test",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "size",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "small",
+                                "synonyms": [
+                                    "tiny"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "medium",
+                                "synonyms": [
+                                    "regular"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "large",
+                                "synonyms": [
+                                    "gigantic",
+                                    "huge",
+                                    "big"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "energy",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "low",
+                                "synonyms": [
+                                    "lazy",
+                                    "calm",
+                                    "chill"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "medium",
+                                "synonyms": [
+                                    "regular"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "high",
+                                "synonyms": [
+                                    "hi",
+                                    "hyper",
+                                    "excited"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "temperament",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "family",
+                                "synonyms": [
+                                    "sweet",
+                                    "nice",
+                                    "friendly",
+                                    "loving"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "guard",
+                                "synonyms": [
+                                    "protector",
+                                    "jerk",
+                                    "angry",
+                                    "mean",
+                                    "mad",
+                                    "aggressive"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "stringLiteral",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "dummy value: literal API return entity"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "alexa-conversations-pet-match",
+    "version": "1.0.0",
+    "description": "An conversational pet finder skill to receive dog recommendations based upon your preferences",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Amazon Alexa",
+    "license": "ASL",
+    "dependencies": {
+      "ask-sdk-core": "^2.6.0",
+      "ask-sdk-model": "^1.18.0"
+    }
+  }
